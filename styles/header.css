@@ -1,0 +1,103 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1d2196;
+    color: #2ab7de;
+    /* padding: 50px 10px 50px 10px;  */
+    /* padding: 10px; */
+
+}
+
+.logo,
+.nav,
+.home{
+    max-width: 33%;
+    /* border: solid black; */
+    flex-shrink: 1;
+    flex-grow: 1;
+    font-size: 14px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+} 
+
+.logo img {
+    height: 75px;
+    width: auto;
+    /* border: solid black; */
+}
+
+.home {
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* border: solid black;  */
+}
+
+.home-btn {
+    background: #ffcc00;
+    font-size: 16px;
+    border: solid black;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.home-btn:hover{
+    background-color: #f5e18f;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.right-btn {
+    border: solid black;
+    font-size: 16px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.join-btn {
+    background: #dfee0b;
+}
+
+.join-btn:hover{
+    background-color: #fefe59;
+}
+
+.sign-up-btn {
+    background: #119b46;
+}
+
+.sign-up-btn:hover {
+    background-color: #1be669;
+}
+
+.log-in-btn {
+    background: #15a4a7;
+}
+
+.log-in-btn:hover {
+    background: #22e5e8;
+}
+
+@media screen and (max-width: 768px) {
+    header{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header{
+        width: 100%;
+    }
+}

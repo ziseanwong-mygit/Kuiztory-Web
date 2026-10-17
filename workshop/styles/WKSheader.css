@@ -1,0 +1,147 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1d2196;
+    color: #2ab7de;
+    /* padding: 50px 10px 50px 10px;  */
+    /* padding: 10px; */
+
+}
+
+.logo,
+.nav,
+.home{
+    max-width: 33%;
+    /* border: solid black; */
+    flex-shrink: 1;
+    flex-grow: 1;
+    font-size: 14px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+} 
+
+.logo img {
+    height: 75px;
+    width: auto;
+    /* border: solid black; */
+}
+
+.home {
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* border: solid black;  */
+}
+
+.home-btn {
+    background: #ffcc00;
+    font-size: 16px;
+    border: solid black;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.home-btn:hover{
+    background-color: #bea12c;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.right-btn {
+    border: solid black;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.homepage-btn {
+    background: #e69d0c;
+}
+
+.homepage-btn:hover{
+    background-color: #99610d;
+}
+
+.actionDrop-btn {
+    background: #d17d2a;
+}
+
+.actionDrop-btn:hover{
+    background-color: #934b1e;
+}
+
+/*Dropdown*/
+.dropdown-container {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-container a {
+    text-decoration: none;
+}
+
+.dropdown-container:hover .dropdown {
+    display: block;
+    pointer-events: auto; /* Ensures interactions work */
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 100%; /* Places it directly below the button */
+    left: 0;
+    min-width: 100%; /* Makes it match button width */
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    list-style: none;
+    padding: 10px;
+    z-index: 100;
+    pointer-events: none; /* Prevents flickering */
+    margin-top: -1px; /* Prevents the gap */
+}
+
+.more-act-btn {
+    padding: 5px;
+    cursor: pointer;
+    color: black;
+    font-size: 14px;
+}
+
+.more-act-btn:hover {
+    background-color: #f4f4f4;
+    color: rgb(229, 113, 18);
+}
+
+.dropdown li:hover {
+    background-color: #f4f4f4;
+}
+
+.dropdown li:active {
+    background-color: #ccc;
+}
+
+
+@media screen and (max-width: 768px) {
+    header{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header{
+        width: 100%;
+    }
+}

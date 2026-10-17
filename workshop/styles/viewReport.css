@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background: #b4e6f0;
+}
+
+.title {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #007BFF;
+}
+
+.description {
+    text-align: center;
+    margin-bottom: 20px;
+    color: blue;
+}
+
+.description-2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(85, 31, 212);
+    font-style: italic;
+}
+
+.table-container {
+    background: rgba(48, 11, 185, 0.89);
+    padding: 15px;
+    border-radius: 5px;
+    margin: 30px;
+    border: 4px solid black;
+    overflow-x: auto;
+}
+
+table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th, td {
+    border: 2px solid black;
+    padding: 10px;
+}
+
+th {
+    background-color: rgb(43, 43, 201);
+    font-size: 20px;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(108, 181, 245);
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(71, 143, 179);
+}
+
+.action-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+
+}
+
+.action-btn {
+    font-weight: bold;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 170px;
+    cursor: pointer;
+}
+
+.comment-btn {
+    background-color: #dada17;
+    margin-bottom: 10px;
+}
+
+.comment-btn:hover {
+    background-color: #93951c;
+}
+
+
+.result-btn {
+    background-color: #e9ba11;
+    margin-bottom: 10px;
+}
+
+.result-btn:hover {
+    background-color: #645625;
+}
+
+.report-btn {
+    background-color: #e19a17;
+}
+
+.report-btn:hover {
+    background-color: #9b6a11;
+}
+
+.delete-btn {
+    background-color: #dd2424;
+}
+
+.delete-btn:hover {
+    background-color: #ad1d1d;
+}

@@ -1,0 +1,226 @@
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    background-color: #b4e6f0;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: rgb(238, 232, 252);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title-page {
+    margin-top: 30px;
+    margin-bottom: 0;
+    color: #660dbf;
+    text-align: center;
+}
+
+.main-action-container {
+    background: rgba(89, 71, 186, 0.89);
+    padding: 20px;
+    border-radius: 5px;
+    margin: 25px 100px 25px 100px;
+    border: 4px solid black;
+}
+
+.actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.main-btn {
+    color: white;
+    border: 3px solid black;
+    padding: 10px 25px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.btn1 {
+    background: #d68126;
+}
+
+.btn1:hover {
+    background: #a15a0d;
+}
+
+.btn2 {
+    background: #d68126;
+}
+
+.btn2:hover {
+    background: #a15a0d;
+}
+
+.btn3 {
+    background: #0ac30d;
+}
+
+.btn3:hover {
+    background: #127514;
+}
+
+.btn4 {
+    background: #0ac30d;
+}
+
+.btn4:hover {
+    background: #127514;
+}
+
+.recent-assessments, .recent-classes {
+    margin-bottom: 20px;
+}
+
+.assessment, .class {
+    border: 2px solid #000000;
+    background-color: #c2a0f1;
+    padding: 15px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.main-panel {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img-display {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 300px;
+    flex: 1;
+    margin-bottom: 20px;
+}
+
+.img-display img {
+    max-width: 300px;
+    max-height: 300px;
+    border: 3px solid black;
+}
+
+.title-and-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: black;
+    flex: 2;
+}
+
+.info-panel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    background-color: rgb(154, 90, 181);
+    border: 2px solid black;
+}
+
+.assessment-actions, .class-actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.assess-btn, .class-btn {
+    color: black;
+    border: 3px solid black;
+    padding: 10px 25px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.manageQBtn {
+    background-color: #2de25b;
+}
+
+.manageQBtn:hover {
+    background-color: #1b831d;
+}
+
+.editQuizBtn {
+    background-color: rgb(230, 230, 42);
+}
+
+.editQuizBtn:hover {
+    background-color: rgb(187, 141, 41);
+}
+
+.deleteQuizBtn {
+    background-color: rgb(235, 71, 21);
+}
+
+.deleteQuizBtn:hover {
+    background-color: rgb(177, 66, 33);
+}
+
+.viewRepBtn {
+    background-color: rgb(25, 146, 221);
+}
+
+.viewRepBtn:hover {
+    background-color: rgb(24, 120, 161);
+}
+
+.viewStatBtn {
+    background-color: rgb(42, 130, 230);
+}
+
+.viewStatBtn:hover {
+    background-color: rgb(24, 77, 168);
+}
+
+.more-btn {
+    margin-top: 20px;
+    font-size: 20px;
+    background-color: rgb(145, 80, 206);
+    border: 3px solid black;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.more-btn:hover {
+    background-color: rgb(84, 33, 146);
+}
+
+.manageMemberBtn {
+    background-color: #2de25b;
+}
+
+.manageMemberBtn:hover {
+    background-color: #1b831d;
+}
+
+.editClassBtn {
+    background-color: rgb(230, 230, 42);
+}
+
+.editClassBtn:hover {
+    background-color: rgb(187, 141, 41);  
+}
+
+.deleteClassBtn {
+    background-color: rgb(235, 71, 21);
+}
+
+.deleteClassBtn:hover {
+    background-color: rgb(177, 66, 33);
+}

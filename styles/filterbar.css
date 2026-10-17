@@ -1,0 +1,110 @@
+/* Navigation Filters */
+.filters {
+    display: flex;
+    gap: 10px;
+    padding: 15px;
+    background: rgb(249, 227, 215);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    flex-wrap: wrap;
+}
+
+.filters button {
+    padding: 10px;
+    border: 2px solid #000000;
+    cursor: pointer;
+} 
+
+.dropdown-container {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-container a {
+    text-decoration: none;
+}
+
+.dropdown-container:hover .dropdown {
+    display: block;
+    pointer-events: auto; /* Ensures interactions work */
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 100%; /* Places it directly below the button */
+    left: 0;
+    min-width: 100%; /* Makes it match button width */
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    list-style: none;
+    padding: 15px 10px 15px 10px;
+    z-index: 100;
+    pointer-events: none; /* Prevents flickering */
+    margin-top: -1px; /* Prevents the gap */
+}
+
+.dropdown li {
+    padding: 5px;
+    cursor: pointer;
+    color: black;
+}
+
+.grade-text {
+    font-size: 14px;
+}
+
+.grade-text:hover {
+    color: blue;
+}
+
+.chapter-text {
+    font-size: 12px;
+}
+
+.chapter-text:hover {
+    color: blue;
+}
+
+.difficulty-text {
+    font-size: 16px;
+}
+
+.difficulty-text:hover {
+    color: blue;
+}
+
+.dropdown li:hover{
+    background-color: #f4f4f4;
+}
+
+.dropdown li:active {
+    background-color: #ccc;
+}
+
+.filters input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    flex-grow: 1;
+    padding-left: 10px;
+    width: 750px;
+}
+
+.filters .searchBtn {
+    background-color: #11ce14;
+    padding: 15px;
+    font-weight: bold;
+    color: yellow;
+    border: 2px solid black;
+    margin-left: 10px;
+}
+
+.filters .searchBtn:hover {
+    background-color: #258414;
+} 
+
+@media screen and (max-width: 768px) {
+    .filters input {
+        width:100%
+    }
+}

@@ -1,0 +1,238 @@
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: linear-gradient(rgb(36, 208, 214), rgb(9, 133, 150));
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.info-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+    width: 100%;
+}
+
+.info {
+    padding: 20px;
+    background: #d4c010;
+    border: 2px solid black;
+}
+
+.info span {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.copy {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.copy-Btn {  
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 7px;
+    cursor: pointer;
+}
+
+.info1 {
+    background-color: rgb(245, 78, 6);
+}
+
+.info2 {
+    background-color: rgb(243, 114, 8);
+}
+
+.info3 {
+    background-color: rgb(245, 153, 6);
+}
+
+
+.info4 {
+    background-color: rgb(245, 205, 6);
+}
+
+.info1:hover, .info2:hover, .info3:hover, .info4:hover {
+    background-color: rgb(142, 75, 20);
+    color: rgb(255, 251, 0);
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 10px;
+    color: rgb(28, 75, 184);
+}
+
+.description {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #1d5189;
+}
+
+.description-2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(222, 75, 17);
+    font-style: italic;
+}
+
+.hyperlink-view {
+    color: rgb(167, 78, 31);
+}
+
+.hyperlink-view:hover {
+    color: yellow;
+}
+
+
+.main-btn-menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.main-btn-menu button {
+    background: #62b584;
+    color: white;
+    border: none;
+    font-weight: bold;
+    border: 3px solid black;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.main-btn-menu button:hover {
+    background: #1a8d2b;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.marks, .grade, .performance, .questions {
+    border: 2px solid rgb(222, 222, 222);
+    padding: 15px;
+    width: 45%;
+    color: black;
+}
+
+.marks {
+    background-color: #3aa7cc;
+}
+
+.grade {
+    background-color: #1f98c1;
+}
+
+.performance {
+    background-color: #3a7ccc;
+}
+
+.questions {
+    background-color: rgb(58, 143, 204);
+    overflow-x: auto;
+}
+
+.data-info {
+    font-size: 18px;
+}
+
+.data-info2 {
+    font-size: 16px;
+}
+
+table {
+    border-collapse: collapse;
+    width:100%;
+}
+
+th, td {
+    border: 2px solid black;
+    padding: 10px;
+}
+
+th {
+    background-color: rgb(30, 100, 221);
+    font-size: 16px;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(149, 177, 228);
+    font-size: 12px;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(48, 113, 178);
+    font-size: 12px;
+}
+
+.more-action {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+    width: 100%;
+    gap: 20px;
+    margin-top: 20px;
+    background-color: #11408b;
+    border: 3px solid black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.more-Btn {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.act1 {
+    background-color: rgb(13, 95, 227);
+    color: white;
+}
+
+
+.act2 {
+    background-color: rgb(13, 95, 227);
+    color: white;
+}
+
+.act1:hover {
+    background-color: rgb(12, 65, 150);
+} 
+
+.act2:hover {
+    background-color: rgb(12, 65, 150);
+}
+
+@media screen and (max-width: 768px) {
+    .content {
+        flex-direction: column;
+    }
+
+    .marks, .grade, .performance, .questions {
+        width: 100%;
+    }
+}

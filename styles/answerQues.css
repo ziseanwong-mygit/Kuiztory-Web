@@ -1,0 +1,251 @@
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+    /* margin: 20px; */
+    text-align: center;
+    background-color: #babdec;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px;
+    background: rgb(215, 151, 234);
+    border: 3px solid black;
+}
+
+.streak p {
+    font-size: 18px;
+}
+
+.streak progress {
+    height: 30px;
+    width: 200px;
+    margin-top: -20px;
+}
+
+.text p {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.container {
+    width: 60%;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    align-self: center;
+    background-color: #2b8cdb;
+    border: 3px solid white;
+    margin-bottom: 30px;
+}
+
+/*Question with image*/
+.img-container {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #4269ec;
+    border: 3px solid white;
+    align-self: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container-top {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img-display {
+    min-width: 300px;
+    flex: 1;
+}
+
+.img-display img {
+    max-width: 350px;
+    max-height: 350px;
+}
+
+.question {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+.question-img {
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    /* align-items: flex-start; */
+    flex: 2;
+    /* border: 2px solid black; */
+}
+
+.expand-box {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #241cae;
+    border: 3px solid rgb(132, 190, 222);
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+.expand-box:hover {
+    background-color: #524db2;
+}
+
+.answer-box {
+    margin-top: 20px;
+}
+
+.blankField {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 14px;
+    border: 2px solid black;
+}
+
+textarea {
+    width: 80%;
+    height: 100px;
+    padding: 10px;
+    margin: 5px 0;
+    margin-top: 20px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    resize: none;
+}
+
+.input-btn {
+    width: 80%;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.option-btn {
+    margin-top: 20px;
+    background-color: #cb64ed;
+    border: 3px solid #771fe3;
+    cursor: pointer;
+}
+
+.option-btn:hover {
+    background-color: #301391;
+    border: 3px solid yellow;
+    color: yellow;
+}
+
+.true-btn {
+    margin-top: 20px;
+    background-color: #1fd81f;
+    border: 3px solid #3f7e2c;
+    cursor: pointer;
+}
+
+.true-btn:hover {
+    background-color: #064403;
+    border: 3px solid yellow;
+    color: yellow;
+}
+
+.false-btn {
+    background-color: #ef6e18;
+    border: 3px solid #d9af32;
+    cursor: pointer;
+}
+
+.false-btn:hover {
+    background-color: #82360b;
+    border: 3px solid yellow;
+    color: yellow;
+}
+
+.submit-btn {
+    background-color: #28b110;
+    border: 3px solid #187108;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #124b08;
+    border: 3px solid yellow;
+    color: yellow;
+}
+
+.reset-btn {
+    background-color: #da1010;
+    border: 3px solid #8e1010;
+    cursor: pointer;
+}
+
+.reset-btn:hover {
+    background-color: #6f0b0b;
+    border: 3px solid yellow;
+    color: yellow;
+}
+
+.pause-btn {
+    border: 3px solid black;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #f1ab07;
+}
+
+.pause-btn:hover {
+    background-color: #964707;
+    color: yellow;
+    border: 3px solid yellow;
+}
+
+.popup-msg {
+    width: 80%;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    align-self: center;
+    margin-bottom: 30px;
+}
+
+.right-msg {
+    background-color: #46d41e;
+    border: 3px solid rgb(17, 107, 11);
+}
+
+.wrong-msg {
+    background-color: #ce0e0e;
+    border: 3px solid rgb(145, 14, 14);
+}
+
+.complete-msg {
+    background-color: #2a76d3;
+    border: 3px solid rgb(7, 197, 231);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 80%
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 80%
+    }
+}

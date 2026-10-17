@@ -1,0 +1,71 @@
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+    text-align: center;
+    background-color: rgb(68, 28, 86);
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    background: rgb(69, 56, 210);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 50px;
+    color: white;
+}
+
+.title {
+    color: rgb(17, 233, 200);
+    font-size: 40px;
+}
+
+.description {
+    color: rgb(17, 211, 59);
+    font-size: 18px;
+}
+
+.button {
+    background-color: #e6bb0f;
+    color: black;
+    padding: 10px 20px;
+    border: 3px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #b15a14;
+    border: 3px solid yellow;
+    color: yellow;
+}
+
+.stats {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #0e5ecf;
+    border: 3px solid #ddd;
+    border-radius: 10px;
+}
+
+#exit {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 10px 15px;
+    background: rgb(197, 30, 30);
+    border: 3px solid white;
+    color: white;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+#exit:hover {
+    background: rgb(154, 14, 14);
+    color: orange;
+    border: 3px solid rgb(244, 217, 13);
+}

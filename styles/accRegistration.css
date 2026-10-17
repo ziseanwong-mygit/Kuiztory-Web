@@ -1,0 +1,106 @@
+
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #b4e6f0;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #007BFF;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 20px;
+    color: blue;
+}
+
+main {
+    width: 40%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.tab {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.tab button {
+    background: #125fe3;
+    border: 1px solid #ccc;
+    padding: 10px 50px;
+    color: #72cae8;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.tab button.active {
+    background: #0b239c;
+    font-weight: bold;
+}
+
+.form-section {
+    display: none;
+}
+
+.form-section.active {
+    display: block;
+}
+
+main form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+main form label {
+    font-size: 14px;
+    color: #333;
+}
+
+main form input, select, button {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+main form button {
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s;
+    font-weight: bold;
+}
+
+main form button:hover {
+    background: #0056b3;
+}
+
+.showPswd-btn {
+    font-size: 16px;
+    background: #e6920a;
+    transition: background 0.3s;
+    font-weight: bold;
+}
+
+.showPswd-btn:hover {
+    background: #b75e06;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    main{
+        width: 80%;
+    }
+}
+
+

@@ -1,0 +1,266 @@
+/* General Styles */
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #b4e6f0;
+    text-align: center;
+}
+
+.main-action-container {
+    background: rgba(14, 176, 212, 0.89);
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px 100px 20px 100px;
+    border: 3px solid black;
+}
+
+.actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.main-btn {
+    color: white;
+    border: 3px solid black;
+    padding: 10px 25px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.btn1 {
+    background: #e70c0c;
+}
+
+.btn1:hover {
+    background: #961010;
+}
+
+.btn2 {
+    background: #f3a808;
+}
+
+.btn2:hover {
+    background: #815a05;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+    background: rgb(243, 243, 243);
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    text-align: center;
+    color: #007BFF;
+}
+
+.description {
+    text-align: center;
+    color: blue;
+}
+
+.description-2 {
+    text-align: center;
+    color: red;
+    font-style: italic;
+}
+
+.description-3 {
+    text-align: center;
+    color: green;
+    font-style: italic;
+}
+
+.discard-btn {
+    background: #e74c3c;
+    color: white;
+    border: 3px solid black;
+    padding: 8px 12px;
+    cursor: pointer;
+    float: left;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+.discard-btn:hover {
+    background: #78281f;
+    color: red;
+}
+
+.save-btn{
+    background: #85cc12;
+    color: white;
+    border: 3px solid black;
+    padding: 8px 12px;
+    cursor: pointer;
+    float: right;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+.save-btn:hover {
+    background: #44690a;
+    color: greenyellow;
+}
+
+.question-section {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    justify-content: space-between;
+    background-color: rgb(214, 214, 214);
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.question-number {
+    font-size: 24px;
+    font-weight: bold;
+    background: #bdbdbd;
+    padding: 10px;
+    width: 40px;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.question-type-header{
+    display: flex;
+    flex-direction: row;
+}
+
+.question-type {
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: left;
+}
+
+.question-type p {
+    display: block;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+input[type='radio'] {
+    height: 18px;
+    width: 18px;
+    vertical-align: middle;
+}
+
+.checking-marking {
+    flex: 1;
+    text-align: left;
+    background: #eee;
+    padding-left: 7px;
+    padding-bottom: 7px;
+    border: 2px solid black;
+    margin: 5px;
+}
+
+.checking-marking p {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.answer-box {
+    margin-top: 10px;
+    font-size: 16px;
+    width: 350px;
+}
+
+/* Question Description */
+.question-description {
+    text-align: left;
+    margin-top: 20px;
+    input{
+        width: 100%;
+    }
+}
+
+textarea {
+    width: 100%;
+    height: 120px;
+    resize: none;
+    font-size: 16px;
+}
+
+.question-field {
+    font-size: 16px;
+    height: 30px;
+}
+
+.choice-field {
+    font-size: 16px;
+    height: 30px;
+    margin-left: 5px;
+}
+
+.answer-options {
+    text-align: left;
+    margin-top: 20px;
+    input{
+        width: 75%;
+    }
+}
+
+.media-upload {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.upload-box {
+    background: #cecece;
+    padding: 20px;
+    text-align: center;
+    border: 2px dashed #aaa;
+    cursor: pointer;
+}
+
+.inputFileField {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .question-section {
+        flex-direction: column;
+    }
+
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .checking-marking {
+        width: 95%;
+        text-align: center;
+    }
+}

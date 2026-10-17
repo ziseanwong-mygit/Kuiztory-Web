@@ -1,0 +1,134 @@
+/* General Styling */
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #b4e6f0;
+}
+
+/* Centered Container */
+.container {
+    width: 60%;
+    margin: 20px auto;
+    background: rgb(203, 202, 255);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.back-btn {
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    background-color: #dc8d17;
+    border: 3px solid black;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.back-btn:hover {
+    background-color: #8e5807;
+    color: red;
+}
+
+h1 {
+    text-align: center;
+    color: #007BFF;
+}
+
+p {
+    text-align: center;
+    color: blue;
+}
+
+/* Form Steps */
+.step {
+    background: rgb(146, 155, 250);
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.instruction {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.form-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.form-group input {
+    font-size: 14px;
+    padding: 5px 7px;
+    border: 1.5px solid black;
+}
+
+.form-group select {
+    padding: 5px 7px;
+    border: 1.5px solid black;
+}
+
+textarea {
+    width: 100%;
+    height: 80px;
+    resize: none;
+    font-size: 14px;
+    border: 1.5px solid black;
+}
+
+.fieldTag {
+    margin-bottom: 10px;
+    width: 50%;
+    font-size: 14px;
+    padding: 5px 7px;
+    border: 1.5px solid black;
+}
+
+
+/* Buttons */
+.form-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.form-buttons button {
+    color: black;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.form-buttons button[type=submit] {
+    background: #0fc421;
+    border: 3px solid black;
+}
+
+.form-buttons button[type=submit]:hover {
+    background: #106c19;
+    color: yellow;
+    border: 3px solid yellow;
+}
+
+.form-buttons button[type=reset] {
+    background: #d2150f;
+    border: 3px solid black;
+}
+
+.form-buttons button[type=reset]:hover {
+    background: #90110d;
+}

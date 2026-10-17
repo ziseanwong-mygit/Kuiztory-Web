@@ -1,0 +1,138 @@
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #b4e6f0;
+}
+
+main {
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #007BFF;
+}
+
+.description {
+    text-align: center;
+    margin-bottom: 20px;
+    color: blue;
+}
+
+.class-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.class-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #b266e4;
+    padding: 15px;
+    width: 80%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    border: 4px solid black;
+}
+
+.class-info {
+    color: black;
+}
+
+.container-id {
+    margin-bottom: 10px;
+}
+
+.text-id {
+    background-color: #742fad;
+    color: white;
+    padding: 7px 20px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 18px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.text-id:hover {
+    background-color: #4c147a;
+}
+
+.container-title {
+    margin-bottom: 5px;;
+}
+
+.text-title {
+    font-size: 26px;
+}
+
+.container-desc {
+    margin-bottom: 30px;;
+}
+
+.text-desc {
+    font-size: 16px;
+}
+
+.container-info {
+    margin-bottom: -10px;
+}
+
+.class-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.act-btn {
+    color: black;
+    border: 3px solid black;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.view-btn {
+    background-color: #2de25b;
+}
+
+.view-btn:hover {
+    background-color: #1b831d;
+}
+
+.edit-btn {
+    background-color: rgb(230, 230, 42);
+}
+
+.edit-btn:hover {
+    background-color: rgb(187, 141, 41);
+}
+
+.delete-btn {
+    background-color: rgb(235, 71, 21);
+}
+
+.delete-btn:hover {
+    background-color: rgb(177, 66, 33);
+}
+
+@media (max-width: 768px) {
+    .class-card {
+        flex-direction: column;
+        text-align: left;
+    }
+    .class-actions {
+        margin-top: 10px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}
